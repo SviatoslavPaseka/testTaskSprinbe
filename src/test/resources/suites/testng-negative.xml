@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.interviewTestApp.apiTests.PlayerNegativeApiTest">
+                <methods>
+                    <include name="testNegativeCreatePlayer"/>
+                    <include name="testNegativeGetByIdPlayer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

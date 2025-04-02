@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.interviewTestApp.apiTests.PlayerApiTest">
+                <methods>
+                    <include name="testGetAllPlayers"/>
+                    <include name="testCreatePlayer"/>
+                    <include name="testDeletePlayer"/>
+                    <include name="testUpdatePlayer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
